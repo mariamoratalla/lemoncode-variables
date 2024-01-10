@@ -44,3 +44,31 @@ const grupoE: GrupoMusical = {
   activo: true,
   genero: rock,
 };
+
+const estilo =
+  "font-weight: bold; font-size: 18px; background-color: lightgreen";
+
+console.log(`%c${grupoA.nombre}`, estilo);
+console.log(`Año de fundación: ${grupoA.añoFundacion}
+Activo: ${grupoA.activo}
+Género musical: ${grupoA.genero}`);
+
+console.log(`%c${grupoB.nombre}`, estilo);
+console.log(`Año de fundación: ${grupoB.añoFundacion}
+Activo: ${grupoB.activo}
+Género musical: ${grupoB.genero}`);
+
+console.log(`%c${grupoC.nombre}`, estilo);
+console.log(`Año de fundación: ${grupoC.añoFundacion}
+Activo: ${grupoC.activo}
+Género musical: ${grupoC.genero}`);
+
+console.log(`%c${grupoD.nombre}`, estilo);
+console.log(`Año de fundación: ${grupoD.añoFundacion}
+Activo: ${grupoD.activo}
+Género musical: ${grupoD.genero}`);
+
+console.log(`%c${grupoE.nombre}`, estilo);
+console.log(`Año de fundación: ${grupoE.añoFundacion}
+Activo: ${grupoE.activo}
+Género musical: ${grupoE.genero}`);
