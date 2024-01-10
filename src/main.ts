@@ -1,3 +1,6 @@
-import "./style.css";
-
-console.log("Hello Typescript!");
+interface GrupoMusical {
+    nombre: string,
+    añoFundacion: number,
+    activo: boolean,
+    genero: string
+}
